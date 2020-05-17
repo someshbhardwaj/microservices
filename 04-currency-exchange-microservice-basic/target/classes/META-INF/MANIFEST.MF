@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: currency-exchange
+Implementation-Version: 0.0.1-RELEASE
+Built-By: Somesh
+Implementation-Vendor-Id: com.learningwithsomesh.microservices
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/04-currency-exchange-basic
+Created-By: Maven Integration for Eclipse
+
