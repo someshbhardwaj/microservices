@@ -30,16 +30,16 @@ __Make Kubernetes Cluster and connect with them__
 1. Create a cluster in the Google cloud (give name and choose features u want in the cluster)
 2. Connect with the cluster from Local PC console (goto the kubernetes cluster pager -> Select cluster -> Select "connect" option copy the command and run in ur consle.
 
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=somesh0905/hello-world-rest-api:0.0.4-SNAPSHOT
+kubectl set image deployment currency-exchange currency-exchange=somesh0905/currency-exchange:0.0.1-RELEASE
 
-__Steps to creat image and push to hub.docker.com and deploy in Google Cloud__
+__Steps to create image and push to hub.docker.com and deploy in Google Cloud__
 
 0. Goto The Root directory of the code
 1. To create image
 2. Change code and in pom.xml change the version of the code.
 3. mvn clean install
 4. docker push <hub.docker.com user if>/<application name>:<Tag Release>
-   docker push somesh0905/hello-world-rest-api:0.0.3-SNAPSHOT
+   docker push somesh0905/currency-exchange:0.0.1-RELEASE
 5. kubectl apply -f deployment.yaml
 
 __Validate the execution of commands__
