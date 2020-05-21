@@ -46,6 +46,7 @@ __Validate the execution of commands__
 2. kubectl get all			//get the external ip   example 35.232.160.148 and port 8080
 3. Goto the google Cloud console
 4. watch -n 0.1 curl 35.232.160.148:8080/hello-world
+
    watch -n 0.1 curl 35.232.160.148:8080/<url in the code or api in the code>
 
 ## NOTE
